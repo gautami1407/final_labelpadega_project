@@ -155,7 +155,7 @@ def extract_data_from_url(url):
         if description_elements:
             product_data['description'] = description_elements[0].get_text().strip()
 
-        # Try to extract brand information
+        
         brand_elements = soup.select('div.brand, span.brand, a.brand')
         if brand_elements:
             product_data['brand'] = brand_elements[0].get_text().strip()
