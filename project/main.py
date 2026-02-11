@@ -230,9 +230,8 @@ def page_label_analyzer():
         st.error(f"❌ Error loading Label Analyzer: {str(e)}")
         st.info("Make sure the `pages/finalanalyzerbot.py` is properly configured.")
 
-# ============================================================================
-# PAGE: BARCODE SCANNER
-# ============================================================================
+# ================================================
+# ===============================================
 def page_barcode_scanner():
     st.markdown("<h1 style='color: #059669;'>📱 Barcode Scanner & Product Analyzer</h1>", unsafe_allow_html=True)
     st.markdown("Scan product barcodes or upload images to get comprehensive product information")
