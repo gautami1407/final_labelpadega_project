@@ -1,0 +1,41 @@
+# Streamlit Configuration
+# https://docs.streamlit.io/library/advanced-features/configuration
+
+[theme]
+primaryColor = "#059669"
+backgroundColor = "#f0fdf4"
+secondaryBackgroundColor = "#d1fae5"
+textColor = "#1f2937"
+font = "sans serif"
+
+[client]
+# Show error details when running the app
+showErrorDetails = true
+# Max message size (in MB)
+maxMessageSize = 200
+
+[logger]
+level = "info"
+
+[server]
+# Port to run Streamlit on (default: 8501)
+port = 8501
+# Maximum upload size
+maxUploadSize = 200
+# Enable CORS
+enableCORS = true
+# Enable X-Frame-Options
+enableXsrfProtection = true
+
+[browser]
+# Do not ask to open the browser automatically
+gatherUsageStats = false
+# Server address
+serverAddress = "localhost"
+
+[deprecation]
+# Suppress deprecation warnings
+showPyplotGlobalUse = false
+
+[ui]
+# HideSidebarNav = true

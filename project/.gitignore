@@ -1,0 +1,81 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/cache/
+.streamlit/*.db
+
+# Cache
+.cache/
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# App-specific cache
+product_checker_cache/
+.product_checker_cache/
+*.txt.bak
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# IDE settings
+.vscode/settings.json
+.idea/
+
+# Testing
+.pytest_cache/
+.tox/
+coverage.xml
