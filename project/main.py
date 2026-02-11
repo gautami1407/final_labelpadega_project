@@ -259,7 +259,7 @@ def page_chatbot():
         st.error(f"❌ Error loading Chatbot: {str(e)}")
         st.info("Make sure the `pages/chatbot.py` is properly configured.")
 
-# ============================================================================
+
 # PAGE: MEDICINE CHECKER
 # ============================================================================
 def page_medicine_checker():
@@ -274,7 +274,7 @@ def page_medicine_checker():
         st.error(f"❌ Error loading Medicine Checker: {str(e)}")
         st.info("Make sure the `pages/medicines.py` is properly configured.")
 
-# ============================================================================
+
 # PAGE: ABOUT
 # ============================================================================
 def page_about():
